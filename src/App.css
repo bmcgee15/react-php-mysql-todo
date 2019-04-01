@@ -1,0 +1,130 @@
+.active {
+  color: rgb(114, 225, 253);
+}
+
+a {
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+ul {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  padding-bottom: 12%;
+  padding-top: 12.5%;
+}
+
+.body {
+  text-align: center;
+}
+
+#header1,
+#header3,
+#header4 {
+  width: 20%;
+}
+
+#header2 {
+  width: 40%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  margin-left: 48%;
+  margin-bottom: 15px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-footer {
+  background-color: #222;
+  height: 40px;
+  padding-bottom: 10px;
+  padding-top: 1px;
+  color: white;
+  text-align: center;
+}
+
+.footerDiv {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 97.5%; /* Full-width */
+  margin-left: 1.25%;
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th,
+#myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+  border-collapse: collapse;
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#searchbar {
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
